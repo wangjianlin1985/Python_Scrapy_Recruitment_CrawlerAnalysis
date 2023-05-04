@@ -1,0 +1,807 @@
+[2021-03-24 23:00:26,276][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[字典管理]中...
+[2021-03-24 23:00:26,356][apps.vadmin.permission.management.commands.init.init():66] [INFO] [字典管理]初始化完成！
+[2021-03-24 23:00:26,357][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[字典详情]中...
+[2021-03-24 23:00:26,594][apps.vadmin.permission.management.commands.init.init():66] [INFO] [字典详情]初始化完成！
+[2021-03-24 23:00:26,595][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[参数设置]中...
+[2021-03-24 23:00:26,615][apps.vadmin.permission.management.commands.init.init():66] [INFO] [参数设置]初始化完成！
+[2021-03-24 23:00:26,616][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[岗位管理]中...
+[2021-03-24 23:00:26,639][apps.vadmin.permission.management.commands.init.init():66] [INFO] [岗位管理]初始化完成！
+[2021-03-24 23:00:26,640][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[部门管理]中...
+[2021-03-24 23:00:26,733][apps.vadmin.permission.management.commands.init.init():66] [INFO] [部门管理]初始化完成！
+[2021-03-24 23:00:26,733][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[菜单管理]中...
+[2021-03-24 23:00:27,342][apps.vadmin.permission.management.commands.init.init():66] [INFO] [菜单管理]初始化完成！
+[2021-03-24 23:00:27,343][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[角色管理]中...
+[2021-03-24 23:00:28,152][apps.vadmin.permission.management.commands.init.init():66] [INFO] [角色管理]初始化完成！
+[2021-03-24 23:00:28,153][apps.vadmin.permission.management.commands.init.init():64] [INFO] 正在初始化[用户管理]中...
+[2021-03-24 23:00:28,207][apps.vadmin.permission.management.commands.init.init():66] [INFO] [用户管理]初始化完成！
+[2021-03-24 23:00:48,648][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-24 23:01:00,576][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:01:01,177][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:01:01,345][django.request.log_response():222] [WARNING] Not Found: /docs/
+[2021-03-24 23:01:01,521][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:01:18,774][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:01:19,125][django.request.log_response():222] [WARNING] Not Found: /docs
+[2021-03-24 23:02:08,804][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:02:09,419][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:02:10,036][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:02:10,573][django.request.log_response():222] [WARNING] Not Found: /
+[2021-03-24 23:04:12,647][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-24 23:04:35,869][django.request.log_response():222] [WARNING] Not Found: /login
+[2021-03-24 23:04:36,006][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:04:53,155][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-24 23:06:24,627][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-03-24 23:06:51,227][django.request.log_response():222] [WARNING] Not Found: /monitor/online/list
+[2021-03-24 23:12:54,182][django.request.log_response():222] [WARNING] Not Found: /monitor/online/list
+[2021-03-24 23:12:59,196][django.request.log_response():222] [WARNING] Not Found: /monitor/online/list
+[2021-03-24 23:19:51,196][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\utils\login.py", line 80, in post
+    self.jarge_captcha(request)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\utils\login.py", line 63, in jarge_captcha
+    raise GenException(message='验证码错误')
+apps.vadmin.utils.exceptions.GenException: 验证码错误
+
+[2021-03-24 23:19:54,911][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-03-24 23:59:53,271][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:59:53,864][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:59:54,467][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:59:55,080][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-24 23:59:55,683][django.request.log_response():222] [WARNING] Not Found: /favicon.ico
+[2021-03-25 00:56:42,841][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-25 01:29:04,162][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\models\__init__.py changed, reloading.
+[2021-03-25 01:29:06,550][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 13:58:19,095][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 14:01:54,588][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-03-28 14:07:13,991][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 14:07:30,164][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 14:11:24,492][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 14:13:59,607][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 14:18:10,008][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 14:21:12,888][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 14:21:16,862][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 14:22:06,709][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 15:25:11,154][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 15:25:15,453][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 15:34:45,191][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 15:39:55,769][django.request.log_response():222] [WARNING] Not Found: /admin/permission/tjbyxz/
+[2021-03-28 15:52:27,641][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 15:52:41,340][django.request.log_response():222] [WARNING] Not Found: /admin/permission/tjbyxz/
+[2021-03-28 17:10:41,273][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:11:02,296][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-03-28 17:13:55,864][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 17:13:59,330][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:14:07,854][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 17:14:11,300][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:25:13,147][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 17:25:16,795][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:25:44,962][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 17:25:48,147][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:26:15,597][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\urls.py changed, reloading.
+[2021-03-28 17:26:18,843][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:38:35,160][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 17:38:39,212][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:38:53,254][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:56:15,476][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:56:31,090][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 17:56:54,975][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 17:57:06,290][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:57:17,582][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 17:58:31,681][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 17:58:40,542][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 17:58:53,677][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 17:59:33,018][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 18:00:24,281][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 18:00:27,731][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 18:00:36,360][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 18:00:50,050][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'xz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `xz` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'xz'."
+
+[2021-03-28 18:01:16,373][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 18:01:25,492][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 18:02:15,507][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 18:02:18,696][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:10:24,976][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:12:27,747][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-03-28 21:12:29,972][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 21:13:49,972][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:13:53,616][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:14:16,374][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:14:25,955][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:15:34,936][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:15:44,191][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:16:25,961][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:16:36,471][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:18:27,713][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:21:05,283][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:21:17,998][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:21:21,569][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:21:28,444][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbyxz/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 47, in default
+    return tuple(obj)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 274, in __iter__
+    self._fetch_all()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 113, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1094, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1129, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 474, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 55, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 329, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 704, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 734, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, cnt_out, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+[2021-03-28 21:21:43,725][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbyxz/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 47, in default
+    return tuple(obj)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 274, in __iter__
+    self._fetch_all()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 113, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1094, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1129, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 474, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 55, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 329, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 704, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 734, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, cnt_out, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+[2021-03-28 21:21:50,644][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:22:01,668][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:22:54,404][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:23:05,305][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:25:13,920][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:25:24,342][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:33:01,456][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:33:04,871][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:33:19,117][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:33:22,411][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:36:45,822][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:36:48,722][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:40:20,281][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:47:03,487][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.annotate(year=ExtractYear('create_time')).order_by('year').annotate(cnt_out=Count('id')))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\functions\datetime.py", line 64, in resolve_expression
+    copy = super().resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-03-28 21:47:17,538][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.annotate(year=ExtractYear('create_time')).order_by('year').annotate(cnt_out=Count('id')))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\functions\datetime.py", line 64, in resolve_expression
+    copy = super().resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-03-28 21:47:30,175][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.annotate(year=ExtractYear('create_time')).order_by('year').annotate(cnt_out=Count('id')))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\functions\datetime.py", line 64, in resolve_expression
+    copy = super().resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-03-28 21:48:59,769][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 21:49:02,908][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:49:42,415][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 21:49:45,843][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:49:53,283][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 21:49:56,304][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:50:03,662][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 21:50:13,161][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:50:23,703][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:50:32,292][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:51:43,710][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 21:51:47,089][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:52:04,738][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 21:52:07,699][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:52:36,717][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:52:50,999][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:54:07,376][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 21:54:18,484][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 21:54:55,614][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:55:10,339][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:56:46,651][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\serializers.py changed, reloading.
+[2021-03-28 21:56:49,787][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 22:00:28,562][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 22:00:31,705][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 22:00:39,206][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 22:01:20,763][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.extra(select={'year': 'year(create_datetime)'}).values('year').annotate(count=Count('create_time')).order_by())
+AttributeError: type object 'Jzzp' has no attribute 'extra'
+
+[2021-03-28 22:02:04,788][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 22:02:14,986][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-03-28 22:02:43,261][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.extra(select={'year': 'year(create_datetime)'}).values('year').annotate(count=Count('create_time')).order_by())
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\aggregates.py", line 47, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-03-28 22:02:51,262][django.utils.autoreload.trigger_reload():217] [INFO] D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py changed, reloading.
+[2021-03-28 22:02:59,955][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-08-19 02:08:19,687][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-08-19 02:09:36,696][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-08-19 02:09:38,026][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\cache.py", line 27, in _decorator
+    return method(self, *args, **kwargs)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\cache.py", line 76, in set
+    return self.client.set(*args, **kwargs)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\client\default.py", line 166, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\apps\vadmin\utils\login.py", line 91, in post
+    cache.set(key, token, self.ex.total_seconds())
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\cache.py", line 34, in _decorator
+    raise e.__cause__
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\client\default.py", line 156, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+[2021-08-19 02:10:57,960][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-08-19 02:11:11,761][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-08-19 12:36:23,916][django.utils.autoreload.run_with_reloader():597] [INFO] Watching for file changes with StatReloader
+[2021-08-19 12:36:27,217][django.request.log_response():228] [WARNING] Not Found: /
+[2021-08-19 12:36:27,624][django.request.log_response():228] [WARNING] Not Found: /favicon.ico
+[2021-08-20 16:31:21,936][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-08-20 16:48:53,166][apps.vadmin.utils.backends.authenticate():22] [INFO] admin 正在使用本地登录...
+[2021-08-20 17:11:42,711][django.request.log_response():228] [WARNING] Not Found: /favicon.ico
+[2021-08-20 17:11:43,354][django.request.log_response():228] [WARNING] Not Found: /docs/
+[2021-08-20 17:11:43,702][django.request.log_response():228] [WARNING] Not Found: /favicon.ico

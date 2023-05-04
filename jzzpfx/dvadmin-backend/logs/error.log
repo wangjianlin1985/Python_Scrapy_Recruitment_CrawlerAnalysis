@@ -1,0 +1,661 @@
+[2021-03-24 23:19:51,196][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\utils\login.py", line 80, in post
+    self.jarge_captcha(request)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\utils\login.py", line 63, in jarge_captcha
+    raise GenException(message='验证码错误')
+apps.vadmin.utils.exceptions.GenException: 验证码错误
+
+[2021-03-28 14:07:13,991][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 14:07:30,164][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 14:11:24,492][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 14:18:10,008][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 500, in to_representation
+    for field in fields:
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 361, in _readable_fields
+    for field in self.fields.values():
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\serializers.py", line 57, in fields
+    fields = super().fields
+  File "D:\IDE\Python\Python39\lib\site-packages\django\utils\functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 349, in fields
+    for key, value in self.get_fields().items():
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1029, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 1089, in get_field_names
+    raise TypeError(
+TypeError: The `exclude` option must be a list or tuple. Got str.
+
+[2021-03-28 17:56:31,090][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 17:57:17,582][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 17:58:53,677][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 17:59:33,018][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 18:00:50,050][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'xz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `xz` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'xz'."
+
+[2021-03-28 21:12:29,972][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 457, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 95, in get_attribute
+    instance = instance[attr]
+KeyError: 'gsmc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\op_drf\mixins.py", line 47, in list
+    return self.get_paginated_response(serializer.data)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 745, in data
+    ret = super().data
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 246, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 663, in to_representation
+    return [
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 664, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\serializers.py", line 502, in to_representation
+    attribute = field.get_attribute(instance)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\fields.py", line 490, in get_attribute
+    raise type(exc)(msg)
+KeyError: "Got KeyError when attempting to get a value for field `gsmc` on serializer `JzzpSerializer`.\nThe serializer field might be named incorrectly and not match any attribute or key on the `dict` instance.\nOriginal exception text was: 'gsmc'."
+
+[2021-03-28 21:21:28,444][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbyxz/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 47, in default
+    return tuple(obj)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 274, in __iter__
+    self._fetch_all()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 113, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1094, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1129, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 474, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 55, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 329, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 704, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 734, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, cnt_out, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+[2021-03-28 21:21:43,725][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbyxz/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 47, in default
+    return tuple(obj)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 274, in __iter__
+    self._fetch_all()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1242, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 113, in __iter__
+    for row in compiler.results_iter(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1094, in results_iter
+    results = self.execute_sql(MULTI, chunked_fetch=chunked_fetch, chunk_size=chunk_size)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 1129, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 474, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 55, in pre_sql_setup
+    order_by = self.get_order_by()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 329, in get_order_by
+    order_by.extend(self.find_ordering_name(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 704, in find_ordering_name
+    field, targets, alias, joins, path, opts, transform_function = self._setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\compiler.py", line 734, in _setup_joins
+    field, targets, opts, joins, path, transform_function = self.query.setup_joins(pieces, opts, alias)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, cnt_out, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+[2021-03-28 21:47:03,487][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.annotate(year=ExtractYear('create_time')).order_by('year').annotate(cnt_out=Count('id')))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\functions\datetime.py", line 64, in resolve_expression
+    copy = super().resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-03-28 21:47:17,538][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.annotate(year=ExtractYear('create_time')).order_by('year').annotate(cnt_out=Count('id')))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\functions\datetime.py", line 64, in resolve_expression
+    copy = super().resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-03-28 21:47:30,175][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.annotate(year=ExtractYear('create_time')).order_by('year').annotate(cnt_out=Count('id')))
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\functions\datetime.py", line 64, in resolve_expression
+    copy = super().resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-03-28 21:50:23,703][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:50:32,292][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:52:50,999][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:54:55,614][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 21:55:10,339][django.request.log_response():222] [ERROR] Internal Server Error: /admin/permission/jzzp/tjbytime/
+Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\IDE\Python\Python39\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "D:\IDE\Python\Python39\lib\json\__init__.py", line 234, in dumps
+    return cls(
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "D:\IDE\Python\Python39\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Jzzp is not JSON serializable
+[2021-03-28 22:01:20,763][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.extra(select={'year': 'year(create_datetime)'}).values('year').annotate(count=Count('create_time')).order_by())
+AttributeError: type object 'Jzzp' has no attribute 'extra'
+
+[2021-03-28 22:02:43,261][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\IDE\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\works\other\jzzpfx\dvadmin-backend\apps\vadmin\permission\views.py", line 248, in tjbytime
+    return SuccessResponse(Jzzp.objects.extra(select={'year': 'year(create_datetime)'}).values('year').annotate(count=Count('create_time')).order_by())
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\query.py", line 1056, in annotate
+    clone.query.add_annotation(annotation, alias, is_summary=False)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 999, in add_annotation
+    annotation = annotation.resolve_expression(self, allow_joins=True, reuse=None,
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\aggregates.py", line 47, in resolve_expression
+    c = super().resolve_expression(query, allow_joins, reuse, summarize)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 603, in resolve_expression
+    c.source_expressions[pos] = arg.resolve_expression(query, allow_joins, reuse, summarize, for_save)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\expressions.py", line 514, in resolve_expression
+    return query.resolve_ref(self.name, allow_joins, reuse, summarize, simple_col)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1601, in resolve_ref
+    join_info = self.setup_joins(field_list, self.get_meta(), self.get_initial_alias(), can_reuse=reuse)
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1503, in setup_joins
+    path, final_field, targets, rest = self.names_to_path(
+  File "D:\IDE\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1419, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'create_time' into field. Choices are: city, create_datetime, creator, creator_id, dept_belong_id, description, gsmc, id, modifier, type, update_datetime, xl, xz, zpzw
+
+[2021-08-19 02:09:38,026][apps.vadmin.utils.exceptions.op_exception_handler():81] [ERROR] Traceback (most recent call last):
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\cache.py", line 27, in _decorator
+    return method(self, *args, **kwargs)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\cache.py", line 76, in set
+    return self.client.set(*args, **kwargs)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\client\default.py", line 166, in set
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\apps\vadmin\utils\login.py", line 91, in post
+    cache.set(key, token, self.ex.total_seconds())
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\cache.py", line 34, in _decorator
+    raise e.__cause__
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\django_redis\client\default.py", line 156, in set
+    return bool(client.set(nkey, nvalue, nx=nx, px=timeout, xx=xx))
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\定做区\2019-2021年定做\D496基于scrapy的上上兼职网的数据采集系统\兼职招聘交付\jzzpfx\dvadmin-backend\venv\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+
